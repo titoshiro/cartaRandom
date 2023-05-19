@@ -1,1 +1,51 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body{
+    background-color: green;
+}
+
+h1{
+    position: relative;
+    text-align: center;
+    top: 50px;
+
+}
+
+#cartaGenerada{
+    position:relative;
+    background-color: aliceblue;
+    width: 250px;
+    height: 350px;
+    border-radius: 5px;
+    margin: auto;
+    top: 100px;
+    
+}
+#numerotexto {
+    position: relative;
+    text-align: center;
+    top: 130px;
+    font-size: 50px;
+    
+   
+}
+#pinta1{
+    position: relative;
+    left: 5px;
+    bottom: 120px;
+    font-size: 80px;
+
+}
+#pinta2{
+    position: relative;
+    font-size: 80px;
+    top:25px;
+    transform: rotate(180deg);
+
+
+}
+#boton {
+
+    position: relative;
+    top:20px;
+    left: 60px;
+
+}
